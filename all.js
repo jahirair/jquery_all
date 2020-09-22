@@ -48,6 +48,9 @@ $('#nav').onePageNav();
 	
 	
 //////****counterup js
+<!-- /*v1.10.2 for counterup*/ -->
+      <script src="assets/js/jQuery.10.2.js"></script>
+
 <script src="assets/js/counterup.min.js"></script>
 //main.js
 $('.counter').counterUp({
