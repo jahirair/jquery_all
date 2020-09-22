@@ -83,5 +83,83 @@ $(window).on('scroll',function(){
 	z-index: 99;
 }
 
+/////***owl carousel
+<script src="assets/js/owl.carousel.min.js"></script>
+//css
+<!-- Owl Carousel css -->
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <!-- Owl Carousel theme css -->
+      <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+	      
+//main.js
+$('.clients').owlCarousel({
+    loop:true,
+	dots:false,
+	nav:false,
+	autoplay:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            
+        },
+        600:{
+            items:2,
+            
+        },
+        992:{
+            items:4,
+            
+        }
+    }
+});
+
+//html
+<section class="banner-area owl-carousel h-100" id="home" >
+         <div class="single-banner  h-100 bg" style="background-image:url('assets/img/banner1.1500.jpg');">
+            <div class="container h-100">
+               <div class="row h-100">
+		       
+		       
+//css
+
+.banner-area.owl-carousel .owl-stage-outer {
+	/*/ if in the same div two cls . must be closer */
+	height: 100%;
+}
+
+.banner-area.owl-carousel .owl-stage {
+	/*/ if in the same div two cls . must be closer */
+	height: 100%;
+}
+
+.banner-area.owl-carousel.owl-drag .owl-item {
+	/*/ if in the same div two cls. must be closer  */
+	height: 100%;
+}
+
+.banner-area .owl-dots .owl-dot {
+	background: red !important;
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin: 10px 0;
+}
+
+.banner-area .owl-dots {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.banner-area .owl-dots .owl-dot.active {
+	/*/ if in the same div two cls. must be closer  */
+	background: #fff !important;
+}
+
+
 
                      
