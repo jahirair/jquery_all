@@ -1,3 +1,28 @@
+/// no conflict jquery
+
+(function($){
+	"use strick";
+	
+	jQuery.(document).ready(function($){
+		//activation codes
+	});
+	
+	
+	//window load function outside document ready
+	 $(window).on('scroll',function(){
+	 if($(this).scrollTop()>1){//pixel valu
+		 $('.header-area').addClass("sticky");
+	 }
+	 else{
+		 $('.header-area').removeClass("sticky");
+	 }
+	});
+	//window load end
+	
+}(jQuery));
+/// no conflict jquery end
+
+
 /////*** magnifiq popup 
 <script src="assets/js/magnific-popup.min.js"></script>
 
