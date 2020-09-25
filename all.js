@@ -1,11 +1,9 @@
-/// no conflict jquery
+/// no conflict jquery for themeforest
 
 (function($){
 	"use strick";
 	
-	jQuery.(document).ready(function($){
-		//activation codes
-	});
+	
 	
 	
 	//window load function outside document ready
@@ -20,8 +18,23 @@
 	//window load end
 	
 }(jQuery));
+
+//or for wordpress
+jQuery.(document).ready(function($){
+		//activation codes
+	});
 /// no conflict jquery end
 
+
+
+
+/////one page nav
+<!-- /*v1.10.2 for counterup and onepagenav js*/ -->
+      <script src="assets/js/jQuery.10.2.js"></script>
+<!-- onepagenav js https://github.com/davist11/jQuery-One-Page-Nav/blob/master/jquery.nav.js -->
+      <script src="assets/js/onepagenav.js"></script>
+//main.js
+$('#nav').onePageNav();
 
 /////*** magnifiq popup 
 <script src="assets/js/magnific-popup.min.js"></script>
