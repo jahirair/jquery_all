@@ -26,6 +26,37 @@ jQuery.(document).ready(function($){
 /// no conflict jquery end
 
 
+///// type js
+
+//html
+<h2>We're <span id="typed"></span> </h2>
+	<div id="typed-strings">
+	 <p> <em>Creative</em></p>
+	<p> <em>Hardworking</em></p>
+	<p> <em>On time</em></p>
+	</div>
+//main js activation
+//typed js
+		var typed = new Typed('#typed', {
+			stringsElement: '#typed-strings',
+			loop: true,
+  loopCount: Infinity,
+  typeSpeed: 100,
+  backSpeed: 100,
+		  });
+//js file
+<script src="assets/js/type.min.js"></script>
+//https://github.com/mattboldt/typed.js/blob/master/lib/typed.min.js
+
+
+
+
+
+
+
+
+
+
 
 
 /////one page nav
